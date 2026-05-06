@@ -1,0 +1,28 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1778072685711,1654,01_01_Open_URL,200,"Number of samples in transaction : 1, number of failing samples : 0",Scenario-1_Search 1-1,,true,,5664,525,1,2,null,0,147,1438
+1778072685851,1654,01_01_Open_URL,200,,Scenario-1_Search 1-1,text,true,,5664,525,1,2,https://petstore.octoperf.com/actions/Catalog.action,1652,0,1438
+1778072685711,2360,02_01_Open_URL,200,"Number of samples in transaction : 1, number of failing samples : 0",Scenario-2_ViewDetails_AddtoCart 2-1,,true,,5664,525,1,2,null,0,140,1941
+1778072685851,2360,02_01_Open_URL,200,,Scenario-2_ViewDetails_AddtoCart 2-1,text,true,,5664,525,1,2,https://petstore.octoperf.com/actions/Catalog.action,2359,0,1941
+1778072688212,406,02_02_Click_SignIn,200,"Number of samples in transaction : 1, number of failing samples : 0",Scenario-2_ViewDetails_AddtoCart 2-1,,true,,4093,612,1,2,null,0,5,0
+1778072688215,406,02_02_Click_SignIn,200,,Scenario-2_ViewDetails_AddtoCart 2-1,text,true,,4093,612,1,2,https://petstore.octoperf.com/actions/Account.action?signonForm=,406,0,0
+1778072687514,230,01_02_Click_Search,200,"Number of samples in transaction : 1, number of failing samples : 0",Scenario-1_Search 1-1,,true,,4081,923,1,2,null,0,5066,0
+1778072692578,230,01_02_Click_Search,200,,Scenario-1_Search 1-1,text,true,,4081,923,1,2,https://petstore.octoperf.com/actions/Catalog.action,230,0,0
+1778072688624,1357,02_03_Enter_Credentials_SignIn,200,"Number of samples in transaction : 2, number of failing samples : 0",Scenario-2_ViewDetails_AddtoCart 2-1,,true,,10518,2271,1,1,null,0,5083,0
+1778072693698,911,02_03_Enter_Credentials,200,,Scenario-2_ViewDetails_AddtoCart 2-1,text,true,,5374,1659,1,1,https://petstore.octoperf.com/actions/Catalog.action,440,0,0
+1778072693698,440,02_03_Enter_Credentials-0,302,,Scenario-2_ViewDetails_AddtoCart 2-1,,true,,230,959,1,1,https://petstore.octoperf.com/actions/Account.action,440,0,0
+1778072694141,468,02_03_Enter_Credentials-1,200,,Scenario-2_ViewDetails_AddtoCart 2-1,text,true,,5144,700,1,1,https://petstore.octoperf.com/actions/Catalog.action,467,0,0
+1778072694616,446,02_03_SignIn,200,,Scenario-2_ViewDetails_AddtoCart 2-1,text,true,,5144,612,1,1,https://petstore.octoperf.com/actions/Catalog.action,445,0,0
+1778072695064,507,02_04_Click_Category,200,"Number of samples in transaction : 1, number of failing samples : 0",Scenario-2_ViewDetails_AddtoCart 2-1,,true,,3799,630,1,1,null,0,2,0
+1778072695065,507,02_04_Click_Category,200,,Scenario-2_ViewDetails_AddtoCart 2-1,text,true,,3799,630,1,1,https://petstore.octoperf.com/actions/Catalog.action?viewCategory=&categoryId=CATS,507,0,0
+1778072695573,449,02_05_Click_ProductID,200,"Number of samples in transaction : 1, number of failing samples : 0",Scenario-2_ViewDetails_AddtoCart 2-1,,true,,4257,663,1,1,null,0,5084,0
+1778072700657,449,02_05_Click_ProductID,200,,Scenario-2_ViewDetails_AddtoCart 2-1,text,true,,4257,663,1,1,https://petstore.octoperf.com/actions/Catalog.action?viewProduct=&productId=FL-DLH-02,447,0,0
+1778072701106,436,02_06_Click_ItemID,200,"Number of samples in transaction : 1, number of failing samples : 0",Scenario-2_ViewDetails_AddtoCart 2-1,,true,,3956,656,1,1,null,0,5092,0
+1778072706197,436,02_06_Click_ItemID,200,,Scenario-2_ViewDetails_AddtoCart 2-1,text,true,,3956,656,1,1,https://petstore.octoperf.com/actions/Catalog.action?viewItem=&itemId=EST-17,436,0,0
+1778072706634,408,02_07_Click_Addto_Cart,200,"Number of samples in transaction : 1, number of failing samples : 0",Scenario-2_ViewDetails_AddtoCart 2-1,,true,,4806,655,1,1,null,0,1,0
+1778072706635,408,02_07_Click_Addto_Cart,200,,Scenario-2_ViewDetails_AddtoCart 2-1,text,true,,4806,655,1,1,https://petstore.octoperf.com/actions/Cart.action?addItemToCart=&workingItemId=EST-1,407,0,0
+1778072707044,467,02_08_Proceed_to_Checkout,200,"Number of samples in transaction : 1, number of failing samples : 0",Scenario-2_ViewDetails_AddtoCart 2-1,,true,,5560,644,1,1,null,0,5069,0
+1778072712113,467,02_08_Proceed_to_Checkout,200,,Scenario-2_ViewDetails_AddtoCart 2-1,text,true,,5560,644,1,1,https://petstore.octoperf.com/actions/Order.action?newOrderForm=,467,0,0
+1778072712581,412,02_09_Add_Details_Form,200,"Number of samples in transaction : 1, number of failing samples : 0",Scenario-2_ViewDetails_AddtoCart 2-1,,true,,4684,1264,1,1,null,0,5042,0
+1778072717621,412,02_09_Add_Details_Form,200,,Scenario-2_ViewDetails_AddtoCart 2-1,text,true,,4684,1264,1,1,https://petstore.octoperf.com/actions/Order.action,412,0,0
+1778072718034,440,02_10_Confirm_Payment,200,"Number of samples in transaction : 1, number of failing samples : 0",Scenario-2_ViewDetails_AddtoCart 2-1,,true,,5380,621,1,1,null,0,5058,0
+1778072723092,440,02_10_Confirm_Payment,200,,Scenario-2_ViewDetails_AddtoCart 2-1,text,true,,5380,621,1,1,https://petstore.octoperf.com/actions/Order.action?newOrder=&confirmed=true,440,0,0
